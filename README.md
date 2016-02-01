@@ -1,4 +1,4 @@
-##### python ve django ile basit bir web uygulaması 
+## python ve django ile basit bir web uygulaması 
 
 django frameworkunu kullanarak yaptığım basit bir uygulama
 
