@@ -23,3 +23,4 @@ Django 1.9 frameworkunu kullanarak deneme amaçlı yaptığım basit bir uygulam
 ---------------------
 
 | [@ozcaan11](https://twitter.com/ozcaan11)
+---------
