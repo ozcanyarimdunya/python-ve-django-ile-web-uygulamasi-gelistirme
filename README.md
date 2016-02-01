@@ -1,8 +1,6 @@
 ## python ve django ile basit bir web uygulaması 
 
-django frameworkunu kullanarak yaptığım basit bir uygulama
-
-Deneme amaçlı yaptığım bir proje
+Django 1.9 frameworkunu kullanarak deneme amaçlı yaptığım basit bir uygulama
 
 -------------------
 
@@ -21,3 +19,7 @@ Deneme amaçlı yaptığım bir proje
 
 | [Django official](https://docs.djangoproject.com/en/1.9/)
 ---------
+
+---------------------
+
+| [@ozcaan11](https://twitter.com/ozcaan11)
