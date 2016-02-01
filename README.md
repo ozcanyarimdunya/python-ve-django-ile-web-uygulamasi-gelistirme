@@ -4,6 +4,17 @@ django frameworkunu kullanarak yaptığım basit bir uygulama
 
 Deneme amaçlı yaptığım bir proje
 
+
+######Admin paneli için
+
+-
+| kullanıcı adı : L50
+---------
+
+-
+| şifre: trydjango
+---------
+
 -------------------
 
 ####Kaynaklar
