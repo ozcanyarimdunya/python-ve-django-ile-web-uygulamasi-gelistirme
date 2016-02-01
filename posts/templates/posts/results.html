@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My first site | Django</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'posts/style.css' %}"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <h1>{{ question.question_text }}</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <ul>
+                {% for choice in question.choice_set.all %}
+                <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+                {% endfor %}
+            </ul>
+            <a href="{% url 'posts:detail' question.id %}">Vote again?</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
