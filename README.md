@@ -6,10 +6,10 @@ Django 1.9 frameworkunu kullanarak deneme amaçlı yaptığım basit bir uygulam
 
 ####Admin paneli için
 
-| kullanıcı adı:  L50
+| kullanıcı adı: _L50_
 ---------
 
-| şifre:          trydjango
+| şifre: _trydjango_
 ---------
 
 -------------------
